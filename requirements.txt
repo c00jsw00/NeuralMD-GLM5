@@ -1,0 +1,40 @@
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+
+# PyTorch Geometric
+pyg
+torch-scatter
+torch-sparse
+torch-cluster
+
+# SE(3) Equivariant Networks
+e3nn
+torchdiffeq
+
+# Molecular Dynamics
+MDAnalysis
+biopython
+rdkit
+
+# Scientific Computing
+numpy
+networkx
+scikit-learn
+pandas
+h5py
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+sympy
+ase
+pymatgen
+torch-ema
+
+# Optional (for development)
+pytest
+black
+flake8

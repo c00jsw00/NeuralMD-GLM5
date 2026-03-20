@@ -1,0 +1,53 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="NeuralMD",
+    version="1.0.0",
+    author="Shengchao Liu, Weitao Du",
+    author_email="chao1224@gmail.com",
+    description="A Multi-Grained Symmetric Differential Equation Model for Learning Protein-Ligand Binding Dynamics",
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/chao1224/NeuralMD",
+    packages=find_packages(),
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Science/Research",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
+    ],
+    python_requires=">=3.9",
+    install_requires=[
+        "numpy",
+        "networkx",
+        "scikit-learn",
+        "rdkit",
+        "pytorch==2.2",
+        "pyg",
+        "pytorch-scatter",
+        "pytorch-sparse",
+        "pytorch-cluster",
+        "ogb==1.2.1",
+        "sympy",
+        "ase",
+        "lie_learn",
+        "e3nn",
+        "transformers",
+        "selfies",
+        "atom3d",
+        "biopython",
+        "pymatgen",
+        "h5py",
+        "torch-ema",
+        "MDAnalysis",
+    ],
+    extras_require={
+        "dev": [
+            "pytest",
+            "black",
+            "flake8",
+        ]
+    },
+)
