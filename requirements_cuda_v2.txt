@@ -1,0 +1,38 @@
+# PyTorch with CUDA 12.x support
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cu121
+
+# PyTorch Geometric (GPU)
+pyg
+torch-scatter
+torch-sparse
+torch-cluster
+
+# SE(3) Networks
+e3nn
+torchdiffeq
+
+# Molecular Dynamics
+MDAnalysis
+biopython
+rdkit
+
+# Scientific Computing
+numpy
+networkx
+scikit-learn
+pandas
+h5py
+
+# Visualization
+matplotlib
+seaborn
+tensorboard
+
+# Utilities
+sympy
+psutil
+
+# Multi-GPU
+# torch.distributed (built-in)
